@@ -72,7 +72,7 @@ const services = [
     icon: backend,  // Replace with appropriate icon for SOC
   },
   {
-    title: "Cybersecurity Consultant",
+    title: "Cybersecurity Tutor",
     icon: creator,  // Replace with appropriate icon for consultancy
   },
 ];
