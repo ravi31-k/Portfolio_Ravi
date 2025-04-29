@@ -61,6 +61,18 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+          {/* Mini-PKI Link as a Button */}
+          <li>
+            <a
+              href="https://mini-pki.onrender.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 transition duration-300">
+                Mini-PKI
+              </button>
+            </a>
+          </li>
         </ul>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
@@ -91,6 +103,18 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+              {/* Mini-PKI Button for Mobile Menu */}
+              <li>
+                <a
+                  href="https://mini-pki.onrender.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 transition duration-300">
+                    Mini-PKI
+                  </button>
+                </a>
+              </li>
             </ul>
           </div>
         </div>
