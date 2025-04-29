@@ -68,7 +68,7 @@ const services = [
     icon: mobile,  // Replace with appropriate icon for penetration testing
   },
   {
-    title: "Security Operations Center (SOC) Analyst",
+    title: "Software Engineer",
     icon: backend,  // Replace with appropriate icon for SOC
   },
   {
